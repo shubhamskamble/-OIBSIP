@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-image:url(blue-sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: auto;
+    height: 50vh;
+    padding: 20px;
+    border-radius: 12px;
+    /*background-color: white;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.title{
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Gloock', serif;
+    text-align: center;
+}
+.temp-value{
+    padding: 20px;
+    padding-left: 35px;
+}
+.temp-value label{
+    font-size: 23px;
+    font-family: 'Kanit', sans-serif;
+}
+.temp-value input{
+    padding: 7px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+}
+.I-O{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.temp-input label{
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+.temp-input select{
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+}
+.temp-output label{
+    padding-left: 15px;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+.temp-output select{
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+}
+.btns{
+    padding: 20px;
+    padding-left: 55px;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 150px;
+    height: 43px;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    background-color: #a3cbf9;
+    border-radius: 6px;
+}
+.result-value {
+    padding: 20px;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.result-value label{
+    font-size: 23px;
+    font-family: 'Kanit', sans-serif;
+}
+.result-value input{
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: 'Kanit', sans-serif;
+}
